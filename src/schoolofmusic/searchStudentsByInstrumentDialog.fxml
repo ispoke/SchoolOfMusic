@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+
+<DialogPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="schoolofmusic.SearchByInstrumentDialogController">
+
+    <content>
+            <HBox alignment="TOP_CENTER">
+                <Label maxWidth="75.0" text="Instrument:" wrapText="true">
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin></Label>
+                <TextField fx:id="searchInstrument" />
+            </HBox>
+    </content>
+</DialogPane>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<DialogPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+            fx:controller="schoolofmusic.TeacherDialogController" prefHeight="500.0" prefWidth="600.0">
+
+        <headerText>
+            Enter the Teacher Details in the Fields below:
+        </headerText>
+        <content>
+            <GridPane  alignment="CENTER" prefHeight="350.0" prefWidth="200.0">
+                <children>
+                    <Label text="Teacher Name:" GridPane.columnIndex="0" GridPane.rowIndex="0">
+                        <GridPane.margin>
+                            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                        </GridPane.margin>
+                    </Label>
+                    <TextField fx:id="teacherName" GridPane.columnIndex="1" GridPane.rowIndex="0">
+                        <GridPane.margin>
+                            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                        </GridPane.margin>
+                    </TextField>
+                    <Label text="Teacher Contact:" GridPane.columnIndex="0" GridPane.rowIndex="1">
+                        <GridPane.margin>
+                            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                        </GridPane.margin>
+                    </Label>
+                    <TextField fx:id="teacherContact" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                        <GridPane.margin>
+                            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                        </GridPane.margin>
+                    </TextField>
+                    <Label text="Instrument:" GridPane.columnIndex="0" GridPane.rowIndex="2">
+                        <GridPane.margin>
+                            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                        </GridPane.margin>
+                    </Label>
+                    <TextField fx:id="teacherInstrument" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                        <GridPane.margin>
+                            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                        </GridPane.margin>
+                    </TextField>
+                    <Label text="Code:" GridPane.columnIndex="0" GridPane.rowIndex="3">
+                        <GridPane.margin>
+                            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                        </GridPane.margin>
+                    </Label>
+                    <TextField fx:id="teacherCode" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                        <GridPane.margin>
+                            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                        </GridPane.margin>
+                    </TextField>
+                    <Label text="Cannot be changed once entered." GridPane.columnIndex="3" GridPane.rowIndex="3"/>
+                </children>
+                <opaqueInsets>
+                    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                </opaqueInsets>
+                <columnConstraints>
+                    <ColumnConstraints />
+                    <ColumnConstraints />
+                </columnConstraints>
+                <rowConstraints>
+                    <RowConstraints />
+                    <RowConstraints />
+                    <RowConstraints />
+                    <RowConstraints />
+                </rowConstraints></GridPane>
+
+        </content>
+</DialogPane>
+
+
